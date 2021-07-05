@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./xmas.jpeg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 4rem;
+    color:white;
+    text-shadow: 5px 0 0 black;
+}
+
+.countdown-container{
+    color: white;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.big-text {
+    font-size:6rem;
+    line-height: 1;
+    margin: 0 3rem;
+    font-weight: bold;
+    text-shadow: 5px 0 0 black;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+
