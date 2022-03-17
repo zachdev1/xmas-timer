@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("./xmas.jpeg");
+    background-image: url("xmas.jpeg");
     background-size: cover;
     background-position: center center;
     display: flex;
